@@ -21,6 +21,7 @@ class Users extends Migration
             $table->string("firstName");
             $table->string("lastName");
             $table->increments("id");
+            $table->timestamps();
         });
     }
 
@@ -31,7 +32,7 @@ class Users extends Migration
      */
     public function down()
     {
-        //Schema::drop("users");
+        Schema::drop("users");
 
         // Drop table users if it already exists.
         Schema::dropIfExists("users");
