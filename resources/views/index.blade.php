@@ -3,7 +3,7 @@
 
 
 @section("content")
-
+{{-- Need to use AJAX to test for PUT, as data needs to be sent as a JSON payload.--}}
     <form action="/api/users" Method = "POST">
         <div class="form-group">
             <label for="firstName">First name:</label>
