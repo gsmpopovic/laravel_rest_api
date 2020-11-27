@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    background: grey;
+}
+
+input {
+    display: block;
+    margin: 0px auto;
+}
+
+label {
+    text-align: center;
+}
